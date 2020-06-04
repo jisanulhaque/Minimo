@@ -1,0 +1,301 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color:#626262;
+}
+/*header start*/
+header{
+	padding: 15px 0;
+}
+
+.container{
+	width:90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 13%;
+	float: left;
+	margin-top:8px;
+}
+
+.logo img{
+	width:100%;
+}
+
+.menu{
+	width:70%;
+	float: right;
+}
+.menu ul{
+	float:right;
+}
+.menu ul li{
+	float:left;
+	list-style: none;
+
+}
+
+.menu ul li a:hover{
+	color:black;
+}
+
+.menu ul li a{
+	color:#626262;
+	text-decoration:none;
+	text-transform: uppercase;
+	padding:0 50px;
+	display:inline-block;
+}
+
+.menu ul li a:last-child{
+	padding-right: 0;
+}
+
+/*header end*/
+ /*banner atrat*/
+.b_img img{
+	width:100%;
+}
+
+ /*banner end*/
+
+/*about start*/
+.about{}
+
+.about .container{
+	width:80%;
+}
+
+.about_me{
+	padding: 29px 0 0 20px;
+}
+
+.about_me h5{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color:#b9b2a5;
+	text-transform: uppercase;
+}
+
+.about_me h3{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 30px;
+	color:#626262;
+}
+.about_me p{
+	font-family: 'Playfair Display', serif;
+	font-width:400;
+	color:#626262;
+	margin-bottom: 45px;
+}
+
+/*about end*/
+
+/*blog strat*/
+.blog{
+	margin-top: 125px;
+}
+
+.blog .container{
+	width: 80%;
+	overflow: hidden;
+}
+
+.blog .container .lifestyle{
+	width: 47%;
+	display: inline-block;
+	float:left;
+}
+
+
+
+.blog .container .lifestyle img{
+	width: 100%;
+}
+
+.blog .container .lifestyle h5{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color:#b9b2a5;
+	text-transform: uppercase;
+}
+
+.blog .container .lifestyle h3{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 30px;
+	color:#626262;
+}
+
+.blog .container .lifestyle p{
+	font-family: 'Playfair Display', serif;
+	font-width:400;
+	color:#626262;
+	margin-bottom: 45px;}
+
+
+.blog .container .lifestyle:last-child{
+	float: right;
+}	
+
+
+.blog #photodiary{
+	margin-top:125px;
+	margin-bottom:115px;
+}
+/*blog end*/
+
+/*Newsletter Start*/
+
+.wrapper{
+	background-color: #f0f0f0;
+	padding: 40px 0 70px 0;
+}
+
+.wrapper .newsletter{
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.wrapper .newsletter h3{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 30px;
+	color:#626262;
+}
+
+.wrapper .newsletter form{
+	width: 65%;
+    margin: 0 auto;
+    border-bottom: 1.5px solid black;
+}
+.wrapper .newsletter .email_input{
+	width: 80%;
+    display: inline-block;
+}
+
+
+form .email_input #email{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+    font-size: 14px;
+    padding: 5px;
+    color: #626262;
+    text-align: left;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.wrapper .newsletter form .s_button{
+	width: 15%;
+    display: inline-block;
+
+}
+
+
+.wrapper .newsletter form .s_button input{
+	background: url(../images/send.png);
+    border: none;
+    outline: none;
+    background-repeat: no-repeat;
+    width: 100%;
+    cursor: pointer;
+}
+/*Newsletter End*/
+
+
+/*Load_more Starts*/
+.load {
+	margin: 140px 0 160px 0;	
+}
+.load_more{
+	width: 40%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	text-align: center;
+}
+
+.load_more button{
+	padding: 15px 30px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #626262;
+    font-family: inherit;
+    font-size: 20px;
+    color: #626262;
+    cursor: pointer;
+}
+
+.load_more button:hover{
+	background-color:#626262;
+	color: white;
+}
+/*Load_more Ends*/
+
+/*footer starts*/
+.foot{
+	background-color: #f0f0f0;
+	padding: 30px 0;
+}
+
+.foot .container .text{
+	float: left;
+    width: 30%;
+    margin-top: 15px;
+}
+
+
+.foot .container .text a{
+	font-family: inherit;
+	font-weight:400;
+	font-size:14px;
+	color: black;
+	text-decoration: none;
+	display:inline-block;
+}
+
+.foot .container .text a:last-child{
+	margin-left: 15px;
+}
+
+.foot .container .follow{
+	float:right;
+	width: 50%;
+	text-align: right;
+}
+
+.foot .container .follow p{
+	display: inline-block;
+	font-family: inherit;
+	font-weight:400;
+	font-size:14px;
+	color: black;
+}
+
+.foot .container .follow i{
+	display: inline-block;
+	font-weight:400;
+	font-size:16px;
+	color: #626262;
+	padding: 0 7px;
+	cursor:pointer;
+}
+/*foter end*/
+
+
+
+
+
+
+
+
