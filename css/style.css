@@ -167,45 +167,45 @@ header{
 	font-size: 30px;
 	color:#626262;
 }
-
+/*Correction*/
 .wrapper .newsletter form{
 	width: 65%;
     margin: 0 auto;
     border-bottom: 1.5px solid black;
+    overflow:hidden;
 }
 .wrapper .newsletter .email_input{
 	width: 80%;
     display: inline-block;
+    float: left;
 }
 
 
 form .email_input #email{
 	font-family: 'Playfair Display', serif;
-	font-weight: 400;
-    	font-size: 14px;
-    	padding: 5px;
-    	color: #626262;
-    	text-align: left;
-    	width: 100%;
-    	border: none;
-    	outline: none;
-   	 background: none;
+    font-size: 14px;
+    padding: 5px;
+    text-align: left;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
 }
 
 .wrapper .newsletter form .s_button{
 	width: 10%;
-    display: inline-block;
-
+    	display: inline-block;
+	float:right;
 }
 
 
 .wrapper .newsletter form .s_button input{
 	background: url(../images/send.png);
-    border: none;
-    outline: none;
-    background-repeat: no-repeat;
-    width: 100%;
-    cursor: pointer;
+	border: none;
+	    outline: none;
+	    background-repeat: no-repeat;
+	    width: 100%;
+	    cursor: pointer;
 }
 /*Newsletter End*/
 
