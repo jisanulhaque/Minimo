@@ -1,7 +1,3 @@
-/*font-family: 'Playfair Display', serif;*/
-/*font-family: 'Ubuntu', sans-serif;*/
-/*font-family: 'Inconsolata', monospace;*/
-
 body{
 	margin: 0;
 	padding: 0;
@@ -186,18 +182,18 @@ header{
 form .email_input #email{
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
-    font-size: 14px;
-    padding: 5px;
-    color: #626262;
-    text-align: left;
-    width: 100%;
-    border: none;
-    outline: none;
-    background: none;
+    	font-size: 14px;
+    	padding: 5px;
+    	color: #626262;
+    	text-align: left;
+    	width: 100%;
+    	border: none;
+    	outline: none;
+   	 background: none;
 }
 
 .wrapper .newsletter form .s_button{
-	width: 15%;
+	width: 10%;
     display: inline-block;
 
 }
